@@ -53,12 +53,12 @@ def test_display():
     disp = board_display(moves)
 
     expected = """
-YX-
--X-
----
-"""
+    YX-
+    -X-
+    ---
+    """
 
-    print expected, disp
+    assert expected == disp
 
 test_display()
 
